@@ -1,1 +1,1 @@
-# dice-game-git-sync-node
+# dice_game
