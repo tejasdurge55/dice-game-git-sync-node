@@ -17,7 +17,7 @@ kind: Deployment
 metadata:
   name: blog
 spec:
-  replicas: 2  # 5 replicas of Nginx
+  replicas: 5  # 5 replicas of Nginx
   selector:
     matchLabels:
       name: blog
