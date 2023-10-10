@@ -1,4 +1,4 @@
-#8
+#9
 #do with minikube mostly as it supports load balancing   minikube service blog-service -p minikube
 apiVersion: v1
 kind: PersistentVolumeClaim
@@ -33,7 +33,7 @@ spec:
           claimName: html
       containers:
       - name: node-dice
-        image: tejasdurge55/dice-nodeapp-gitsync
+        image: tejasdurge55/dice-nodeapp-gitsync:12
         ports:
           - containerPort: 3000
         volumeMounts:
