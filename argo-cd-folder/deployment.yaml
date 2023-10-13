@@ -33,7 +33,7 @@ spec:
           claimName: html
       containers:
       - name: node-dice
-        image: tejasdurge55/dice-nodeapp-gitsync:53
+        image: tejasdurge55/dice-nodeapp-gitsync:54
         ports:
           - containerPort: 3000
         volumeMounts:
